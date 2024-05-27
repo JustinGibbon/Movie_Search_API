@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Searching Site</title>
+
+    <link rel = "stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class = 'wrap'>
+        <!--This will be the logo -->
+        <div class ="logo">
+            <div class = "container">
+                <p>Film<span>Finder</span></p>
+            </div>
+        </div>
+ <div class ="search_container">
+    <div class="search_element">
+        <h3>Film Search:</h3>
+        <input type = "text" class = "form_control" placeholder="Searching for film..." id = "movie_search_box" onkeyup="findMovies()" onclick="findMovies()" >
+
+    <div class = "search_list" id="search_list">
+            <!--<div class="search_list_item">
+                <div class="search_list_thumb">
+                    <img src ="placeholder.png">
+                </div>
+                <div class = "search_item_info">
+                <h3> Movie Title</h3>
+                <p>year</p>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <div class = "container">
+        <div class="result_container ">
+            <div class="result_grid" id="result_grid">
+                <!--<div class = "movie_poster">
+                    <img src="placeholder.png" alt= "Movie_Poster">
+                </div>
+                <div class="movie_info">
+                    <h3 class = "movie_title">Movie Title</h3>
+                    <ul class="movie_info_misc">
+                        <li class="year">Year:2020</li>
+                        <li class="rated">Rated:PG 18</li>
+                        <li class="released">Released:A while ago</li>
+                    </ul>
+                    <p class = "genre"><b>Genre:</b>Action,adventure,comedy</p>
+                    <p class = "writer"><b>Writer:</b>Action,adventure,comedy</p>
+                    <p class = "actors"><b>Actors:</b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, cum aperiam nulla tempore nostrum enim.</p>
+                    <p class = "plot"><b>Plot:</b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam officia nostrum aspernatur debitis autem est distinctio sequi modi molestiae? Cupiditate ipsam repellat ipsa atque reiciendis quis cum magnam laboriosam delectus.</p>
+                    <p class = "language"><b>Language:</b>afrikaans</p>
+                    <p class = "awards"><b><i class = "fas fa-award"></i></b> oscar</p>
+                </div>-->
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src = "script.js"></script>
+    
+</body>
+</html>
